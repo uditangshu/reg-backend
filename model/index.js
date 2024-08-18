@@ -6,11 +6,12 @@ const registrationSchema = new mongoose.Schema({
     required: true,
     trim: true,
   },
-  rollNo: {
+  rollNumber: {
     type: String,
     required: true,
     unique: true, 
     trim: true,
+    
   },
   personalEmail: {
     type: String,
